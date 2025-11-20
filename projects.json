@@ -1,0 +1,4 @@
+[
+  {"title":"OSINT Toolkit","desc":"Automated OSINT collector and reporting pipeline.","link":"/projects/osint"},
+  {"title":"CTF Tools","desc":"Exploit collection and CI/automation for labs.","link":"/projects/ctf"}
+]

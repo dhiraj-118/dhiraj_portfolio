@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Your Name — Cybersecurity Portfolio</title>
+  <meta name="description" content="Personal cybersecurity portfolio: projects, skills, certifications, blog">
+  <link rel="stylesheet" href="/assets/style.css">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-ancestors 'none';">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Your Name</h1>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Certifications</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button id="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Cybersecurity Engineer — Red Team / Blue Team</h2>
+        <p>Building secure systems, vulnerability research, and automation.</p>
+        <a href="#projects" class="btn">See Projects</a>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3>Projects</h3>
+      <div class="grid" id="projects-list"></div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h3>Skills</h3>
+      <ul class="skills-grid">
+        <li>Penetration Testing</li>
+        <li>Network Security</li>
+        <li>Web App Security (OWASP)</li>
+        <li>SIEM / Log Analysis</li>
+        <li>Python / Bash</li>
+        <li>Cloud Security (AWS)</li>
+      </ul>
+    </section>
+
+    <section id="certs" class="container section">
+      <h3>Certifications</h3>
+      <ul>
+        <li>OSCP — Offensive Security</li>
+        <li>CEH — EC-Council</li>
+        <li>CompTIA Security+</li>
+      </ul>
+    </section>
+
+    <section id="blog" class="container section">
+      <h3>Blog</h3>
+      <div id="posts-list"></div>
+      <p class="muted">Tip: Use Markdown blog via Jekyll or Netlify CMS.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Your Name — Built securely</div>
+  </footer>
+
+  <script src="/assets/main.js" defer></script>
+</body>
+</html>
