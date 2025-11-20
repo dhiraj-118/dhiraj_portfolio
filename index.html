@@ -1,179 +1,44 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>dhiraj gavali — Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">dhiraj</a>
-      <button id="nav-toggle" aria-label="menu">&#9776;</button>
-      <nav id="nav" class="nav">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </nav>
+<section id="about" class="section alt">
+  <div class="container about-grid">
+
+    <div>
+      <h2 class="section-title">About</h2>
+      <p>I’m a frontend developer who enjoys building simple, clean and user-friendly websites using basic web technologies.</p>
+      <ul>
+        <li>Tech: HTML, CSS, JavaScript</li>
+        <li>Tools: VS Code, Git, Chrome DevTools</li>
+        <li>Interests: UI design, clean layouts</li>
+      </ul>
+
+      <h3 style="margin-top:20px;">Certifications</h3>
+      <ul>
+        <li>HTML Basics</li>
+        <li>CSS Basics</li>
+        <li>JavaScript Basics</li>
+      </ul>
     </div>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Hi, I’m dhiraj</h1>
-          <p>I build clean, interactive frontends — minimal, fast, and accessible. I work with HTML, CSS and JavaScript.</p>
-          <div class="hero-ctas">
-            <a class="btn" href="#projects">See projects</a>
-            <a class="btn btn-outline" href="#contact">Get in touch</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <svg class="avatar" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
-            <defs>
-              <linearGradient id="g" x1="0" x2="1">
-                <stop offset="0" stop-color="#7b61ff"/>
-                <stop offset="1" stop-color="#3dd3c1"/>
-              </linearGradient>
-            </defs>
-            <circle cx="100" cy="100" r="98" fill="url(#g)"/>
-            <g fill="#fff">
-              <circle cx="100" cy="80" r="30"/>
-              <rect x="50" y="120" width="100" height="40" rx="20"/>
-            </g>
-          </svg>
-          <div class="hero-meta">
-            <div>Frontend Developer</div>
-            <div>Based in India</div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div>
+      <h3>Skills</h3>
+      <div class="skill-list">
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <div class="grid projects-grid">
-          <article class="card project">
-            <div class="project-media"></div>
-            <h3>Project One</h3>
-            <p>Minimal landing page with animation and accessibility-first markup.</p>
-            <a class="link" href="#">View code</a>
-          </article>
-
-          <article class="card project">
-            <div class="project-media"></div>
-            <h3>Project Two</h3>
-            <p>Responsive web app UI with small JS interactions.</p>
-            <a class="link" href="#">View demo</a>
-          </article>
-
-          <article class="card project">
-            <div class="project-media"></div>
-            <h3>Project Three</h3>
-            <p>CSS-only components: modal, tabs and accordions.</p>
-            <a class="link" href="#">Read more</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- UPDATED ABOUT + SKILLS + CERTIFICATIONS -->
-    <section id="about" class="section alt">
-      <div class="container about-grid">
-        
-        <div>
-          <h2 class="section-title">About</h2>
-          <p>I’m a frontend developer focused on building fast, user-friendly and accessible web interfaces. I work with modern frontend tools and love creating smooth UI experiences.</p>
-          <ul>
-            <li>Tech: HTML, CSS, JavaScript, React</li>
-            <li>Tools: VS Code, Git, GitHub, Chrome DevTools</li>
-            <li>Interests: UI animation, performance optimization, design systems</li>
-          </ul>
-
-          <h3 style="margin-top:20px;">Certifications</h3>
-          <ul>
-            <li>Frontend Development – Coursera</li>
-            <li>JavaScript Essentials – Udemy</li>
-            <li>Responsive Web Design – freeCodeCamp</li>
-            <li>Git & GitHub Basics – Great Learning</li>
-          </ul>
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar"><div style="width:90%"></div></div>
         </div>
 
-        <div>
-          <h3>Skills</h3>
-          <div class="skill-list">
-
-            <div class="skill">
-              <div class="skill-name">HTML</div>
-              <div class="skill-bar"><div style="width:98%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div class="skill-name">CSS</div>
-              <div class="skill-bar"><div style="width:92%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div class="skill-name">JavaScript</div>
-              <div class="skill-bar"><div style="width:88%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div class="skill-name">React</div>
-              <div class="skill-bar"><div style="width:80%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div class="skill-name">Git & GitHub</div>
-              <div class="skill-bar"><div style="width:85%"></div></div>
-            </div>
-
-          </div>
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar"><div style="width:80%"></div></div>
         </div>
 
-      </div>
-    </section>
+        <div class="skill">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar"><div style="width:70%"></div></div>
+        </div>
 
-    <section id="contact" class="section contact-section">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <p>Want to work together? Send a quick message.</p>
-        <form class="contact-form" id="contact-form" action="javascript:void(0);">
-          <label>
-            <span>Name</span>
-            <input id="name" required />
-          </label>
-          <label>
-            <span>Email</span>
-            <input id="email" type="email" required />
-          </label>
-          <label>
-            <span>Message</span>
-            <textarea id="message" rows="5" required></textarea>
-          </label>
-          <div class="form-actions">
-            <button class="btn" type="submit">Send</button>
-            <div id="form-msg" aria-live="polite"></div>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> dhiraj gavali</div>
-      <div class="socials">
-        <a href="#" aria-label="GitHub">GitHub</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
       </div>
     </div>
-  </footer>
 
-  <script src="js/script.js"></script>
-</body>
-</html>
+  </div>
+</section>
